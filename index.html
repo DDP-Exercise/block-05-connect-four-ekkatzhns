@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Connect Four</title>
+  <meta charset="UTF-8">
+  <title>Cat vs Dog Connect Four</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <!--TODO: Build the Markup for your Game. Don't forget to style it in a cascading stylesheet. -->
 
+<body>
+<h1>🐱 Cat vs Dog 🐶</h1>
+
+<p id="story">
+  Kitty and Doggy are best friends. Today they play Connect Four.
+  First player with four stones in a row wins the snack crown!
+</p>
+
+<h2 id="currentPlayerText">Current player:</h2>
+
+<div id="message"></div>
+
+<div id="buttons"></div>
+
+<div id="board"></div>
+
+<button id="restartButton">Restart Game</button>
+
+<script type="module" src="./js/controller.connectfour.js"></script>
 </body>
 </html>
